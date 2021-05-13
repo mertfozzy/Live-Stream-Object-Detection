@@ -28,15 +28,12 @@ Gerekli Araçlar:
 
 İşlevsel gereksinimler :
 - Öncelikle program bir masaüstü uygulaması olacak.
-- Program, bir web kamerasındaki nesneleri algılayacaktır. Kullanıcılar nesneleri kare veya daire içine alınmış bir alanda görebilir.
+- Program, bir web kamerasındaki nesneleri algılayacaktır. Kullanıcılar nesneleri kare içine alınmış bir alanda görebilir.
 - Program ayrıca gerçek zamanlı olarak çalışmalıdır. Tüm tespitler canlı olmalı.
 - Ayrıca program 80'e yakın farklı nesneyi algılayabilecektir. Veri setim YOLOv3'e dayalı olacaktır.
 
 
-Eklemeler:
-- Program, insan vücudunu, gözleri ve yüzleri içeren nesneleri algılayacaktır.
-- Ayrıca program yüzdeki duyguları (gülümsemek gibi) gerçek zamanlı olarak algılayabilecektir.
-- Proje bir Kullanıcı Arayüzüne sahip olabilir. (Geliştiriliyor..)
+Eski versiyon için : https://github.com/mertfozzy/Real-Time-Object-Detection
 
 
 Nasıl Çalışır ?
@@ -81,11 +78,7 @@ Functional Requirements :
 - Also, the program will be able to detect almost 80 different objects. My dataset will be based on YOLOv3.
 
 
-Additions :
-- The program will detect objects, that includes human bodies, eyes and faces.
-- Also, the program will be able to detect facial emotions (like smiling) in real time.
-- The Project might have a User Interface. (Under Development..)
-
+For older version : https://github.com/mertfozzy/Real-Time-Object-Detection
 
 How does it work ?
 - Download yolov3-416 package from this address : https://pjreddie.com/darknet/yolo/. Save these files to the addresses specified in the code.
