@@ -23,7 +23,7 @@ app = Flask(__name__)
 cap = cv2.VideoCapture(0)
 
 
-def gen_frames():  # generate frame by frame from camera
+def gen_frames():  # frameler şeklinde görüntüleri topluyoruz
     while True:
 
         ret, frame = cap.read()
