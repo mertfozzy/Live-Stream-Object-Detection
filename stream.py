@@ -3,8 +3,11 @@
 Student Name: Mert Altuntas | Student ID:1804010005 
 ==============================================================================
 Welcome to the Real Time Object Detection Project v3 !! 
- 
-If you want to see my progress step by step check it out my Github link!
+
+It's now detect objects live, in a web page !
+Program needs Flask, OpenCV and Numpy libraries.
+
+If you want to see older version of the program check it out my Github link!
 https://github.com/mertfozzy/Real-Time-Object-Detection
   
 Enjoy.
